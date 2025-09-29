@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/school-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.num{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
